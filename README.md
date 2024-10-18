@@ -27,3 +27,4 @@ Langchain wikipedia search, youtube video and website page summarization.
 Query pdf in AstraDb with Langchain, try Amazon Bedrock, Nvidia, Crewai.
 
 ## u7
+GraphDB and Langchain

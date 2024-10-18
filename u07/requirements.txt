@@ -1,0 +1,13 @@
+neo4j==5.24
+langchain
+langchain_community
+langchain_openai
+langchain_groq
+python-dotenv
+streamlit
+langchain_experimental
+lamini
+langgraph 
+langsmith
+arxiv 
+wikipedia
