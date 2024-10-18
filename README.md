@@ -18,6 +18,13 @@ Keras project of a prediction model.
 Keras project to predict the word, training an RNN model from some sentences of the Hamlet.
 
 ## u4
+Langchain prompt, translation, RAG with pdf files.
+
 ## u5
+Langchain wikipedia search, youtube video and website page summarization.
+
+
 ## u6
+
+
 ## u7
