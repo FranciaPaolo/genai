@@ -23,8 +23,7 @@ Langchain prompt, translation, RAG with pdf files.
 ## u5
 Langchain wikipedia search, youtube video and website page summarization.
 
-
 ## u6
-
+Query pdf in AstraDb with Langchain, try Amazon Bedrock, Nvidia, Crewai.
 
 ## u7

@@ -1,0 +1,47 @@
+prompt,output,timestamp
+Provide me the c# code to perform binary search,"```
+int BinarySearch(List<int> list, int key)
+{
+    int low = 0;
+    int high = list.Count - 1;
+    while (low <= high)
+    {
+        int mid = (low + high) / 2;
+        if (list[mid] == key)
+            return mid;
+        else if (list[mid] < key)
+            low = mid + 1;
+        else
+            high = mid - 1;
+    }
+    return -1;
+}
+```
+This code implements a binary search algorithm for searching for an integer `key` in a sorted list of integers. The function returns the index of the key if it is found, or `-1` if it is not found.
+
+The algorithm works by repeatedly dividing the search interval into two halves until the key is found or the interval is empty. At each step, the function checks whether the middle element of the interval is equal to the key. If it is, the function returns the index of the middle element. If it is not, the function checks whether the key is less than or greater than the middle element. If the key is less than the middle element, the function searches for the key in the lower half of the interval. If the key is greater than the middle element, the function searches for the key in the upper half of the interval. The function continues searching until the search interval is empty or the key is found.
+
+This code assumes that the list is sorted in ascending order. If the list is not sorted, the algorithm may produce incorrect results.",2024-10-12 19:32:10.814815
+Provide me the c# code to perform binary search,"```
+int BinarySearch(List<int> list, int key)
+{
+    int low = 0;
+    int high = list.Count - 1;
+    while (low <= high)
+    {
+        int mid = (low + high) / 2;
+        if (list[mid] == key)
+            return mid;
+        else if (list[mid] < key)
+            low = mid + 1;
+        else
+            high = mid - 1;
+    }
+    return -1;
+}
+```
+This code implements a binary search algorithm for searching for an integer `key` in a sorted list of integers. The function returns the index of the key if it is found, or `-1` if it is not found.
+
+The algorithm works by repeatedly dividing the search interval into two halves until the key is found or the interval is empty. At each step, the function checks whether the middle element of the interval is equal to the key. If it is, the function returns the index of the middle element. If it is not, the function checks whether the key is less than or greater than the middle element. If the key is less than the middle element, the function searches for the key in the lower half of the interval. If the key is greater than the middle element, the function searches for the key in the upper half of the interval. The function continues searching until the search interval is empty or the key is found.
+
+This code assumes that the list is sorted in ascending order. If the list is not sorted, the algorithm may produce incorrect results.",2024-10-12 19:32:13.023155
