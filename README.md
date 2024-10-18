@@ -15,6 +15,8 @@ Introduce pre-requisites and basic concepts like tokenization, stop words, bag o
 Keras project of a prediction model.
 
 ## u3
+Keras project to predict the word, training an RNN model from some sentences of the Hamlet.
+
 ## u4
 ## u5
 ## u6
