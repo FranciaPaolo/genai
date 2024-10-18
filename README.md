@@ -12,6 +12,7 @@ The code is organized in 7 folders (u1, u2, u3, u4, u5, u6, u7), each of them is
 Introduce pre-requisites and basic concepts like tokenization, stop words, bag of words, word2vect.
 
 ## u2
+Keras project of a prediction model.
 
 ## u3
 ## u4
